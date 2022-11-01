@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  text-transform: uppercase;
+}
+
+/*navbar*/
+
+.background {
+  background: url("img/wallpaperflare.com_wallpaper.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-collapse {
+  justify-content: center !important;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-link {
+  color: white !important;
+  transition: background-color 0.5 ease;
+  margin-top: -15px;
+}
+
+.nav-link:hover {
+  background-color: crimson;
+}
+
+.arsenal-logo {
+  width: 65px;
+  height: 62px;
+}
+
+.card-frame {
+  margin-left: 20px;
+  background: goldenrod;
+}
+
+.section-header__text {
+  text-shadow: 1px 1px 2px black, 0 0 1em red;
+  color: white;
+  margin-top: 20px;
+  margin-left: 22px;
+}
+
+.card-conference {
+  color: rebeccapurple;
+}
+
+.btn-primary {
+  background-color: crimson;
+  transition: background-color 0.5s ease;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+}
+
+.third-kit {
+  margin-left: 470px;
+  width: 400px;
+  height: 225px;
+}
+
+.collection {
+  margin-top: -60px;
+  margin-left: 25px;
+  width: 300px;
+  height: 225px;
+}
+
+.arsenal-items {
+  margin-top: 85px;
+  margin-right: -25px;
+}
+
+.arsenal-text__shop {
+  text-shadow: 1px 1px 2px black, 0 0 1em red;
+  color: white;
+}
+
+.col-3 {
+  margin-right: 95px;
+}
+
+.arsenal-things__title {
+  color: crimson;
+  font-size: 16px;
+  text-align: center;
+}
+
+.arsenal-things__text {
+  color: black;
+  text-align: center;
+}
+
+.arsenal-highlights {
+  margin-top: 25px;
+}
+
+.arsenal-highlights__header {
+  margin-top: 25px;
+  background: crimson;
+}
+
+.arsenal-highlights__text {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+.arsenal-highlights__video {
+  width: 800px;
+  height: 400px;
+}
+
+.arsenal-info {
+  margin-left: 192px;
+}
+
+.supporting {
+  color: goldenrod;
+  margin-top: -390px;
+}
+
+.supporting-photo {
+  margin-top: -350px;
+  width: 700px;
+  height: 400px;
+}
+
+.card-academy {
+  font-size: 12px;
+}
+
+.academy-text {
+  color: black;
+}
+
+.academy-text:hover {
+  color: crimson;
+}
+
+.footer {
+  margin-top: 65px;
+  background-color: rgb(88, 88, 88);
+}
+
+.logo-arsenal {
+  margin-top: 45px;
+  margin-left: 550px;
+  width: 65px;
+  height: 62px;
+}
+
+.premier-league {
+  width: 300px;
+  height: 225px;
+}
+
+.premier-league:hover {
+  -webkit-filter: grayscale(100) brightness(200);
+  filter: grayscale(100) brightness(200);
+}
+
+.adidas {
+  width: 125px;
+  height: 100px;
+}
+
+.emirates {
+  width: 125px;
+  height: 100px;
+}
+
+.pes {
+  width: 200px;
+  height: 150px;
+}
+
+.rwanda {
+  width: 125px;
+  height: 100px;
+}
+
+.therabody {
+  width: 125px;
+  height: 100px;
+}
