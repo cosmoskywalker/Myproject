@@ -6,54 +6,58 @@
 * {
   text-transform: uppercase;
 }
-
-/*navbar*/
-
-.header-content {
-  background: url("img/arsenal-crew.jpg");
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+@media (min-width: 320px) {
 }
 
-ul {
-  list-style: none;
-}
+@media (min-width: 1200px) {
+  /*navbar*/
 
-.nav-link {
-  color: white !important;
-  transition: background-color 0.5 ease;
-  margin-top: -15px;
-}
+  .header-content {
+    background: url("img/arsenal-crew.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-.nav-link:hover {
-  background-color: crimson;
-}
+  ul {
+    list-style: none;
+  }
 
-.arsenal-logo {
-  margin-left: 15px;
-  width: 65px;
-  height: 62px;
-}
+  .nav-link {
+    color: white !important;
+    transition: background-color 0.5 ease;
+    margin-top: -15px;
+  }
 
-.nav-item {
-  margin-top: 15px;
-  margin-left: 23px;
-}
+  .nav-link:hover {
+    background-color: crimson;
+  }
 
-.fans-information {
-  margin-top: 25px;
-}
+  .arsenal-logo {
+    margin-left: 15px;
+    width: 65px;
+    height: 62px;
+  }
 
-.fans-information__image {
-  width: 100%;
-}
+  .nav-item {
+    margin-top: 15px;
+    margin-left: 23px;
+  }
 
-.btn-primary {
-  background-color: crimson;
-  transition: background-color 0.5s ease;
-}
+  .fans-information {
+    margin-top: 25px;
+  }
 
-.fans-information__gif {
-  margin-top: 15px;
+  .fans-information__image {
+    width: 100%;
+  }
+
+  .btn-primary {
+    background-color: crimson;
+    transition: background-color 0.5s ease;
+  }
+
+  .fans-information__gif {
+    margin-top: 15px;
+  }
 }

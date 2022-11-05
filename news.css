@@ -6,129 +6,133 @@
 * {
   text-transform: uppercase;
 }
-
-/*navbar*/
-
-.header-content {
-  background: url("img/arsenal-crew.jpg");
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
+@media (min-width: 320px) {
 }
 
-ul {
-  list-style: none;
-}
+@media (min-width: 1200px) {
+  /*navbar*/
 
-.nav-link {
-  color: white !important;
-  transition: background-color 0.5 ease;
-  margin-top: -15px;
-}
+  .header-content {
+    background: url("img/arsenal-crew.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-.nav-link:hover {
-  background-color: crimson;
-}
+  ul {
+    list-style: none;
+  }
 
-.arsenal-logo {
-  margin-top: 15px;
-  margin-left: 15px;
-  width: 65px;
-  height: 62px;
-}
+  .nav-link {
+    color: white !important;
+    transition: background-color 0.5 ease;
+    margin-top: -15px;
+  }
 
-.nav-item {
-  margin-top: 15px;
-  margin-left: 23px;
-}
+  .nav-link:hover {
+    background-color: crimson;
+  }
 
-.header-photos {
-  display: flex;
-  justify-content: space-between;
-}
+  .arsenal-logo {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 65px;
+    height: 62px;
+  }
 
-.header-photo__left {
-  margin-top: 25px;
-  margin-left: 22px;
-}
+  .nav-item {
+    margin-top: 15px;
+    margin-left: 23px;
+  }
 
-.holiday {
-  margin-top: 5px;
-  width: 600px;
-  height: 300px;
-}
+  .header-photos {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.header-photo__right {
-  margin-right: 25px;
-}
+  .header-photo__left {
+    margin-top: 25px;
+    margin-left: 22px;
+  }
 
-.arsenal-description {
-  margin-top: 30px;
-}
+  .holiday {
+    margin-top: 5px;
+    width: 600px;
+    height: 300px;
+  }
 
-.btn-primary {
-  background-color: crimson;
-  transition: background-color 0.5s ease;
-  width: 100%;
-}
+  .header-photo__right {
+    margin-right: 25px;
+  }
 
-.nelson-goal {
-  margin-left: -12px;
-  width: 250px;
-  height: 212px;
-}
+  .arsenal-description {
+    margin-top: 30px;
+  }
 
-.reiss-card {
-  font-size: 16px;
-  margin-left: 125px;
-}
+  .btn-primary {
+    background-color: crimson;
+    transition: background-color 0.5s ease;
+    width: 100%;
+  }
 
-.reiss-text {
-  font-size: 10px;
-  margin-left: 95px;
-}
+  .nelson-goal {
+    margin-left: -12px;
+    width: 250px;
+    height: 212px;
+  }
 
-.players-tweets__arsenal {
-  text-shadow: 1px 1px 2px black, 0 0 1em red;
-}
+  .reiss-card {
+    font-size: 16px;
+    margin-left: 125px;
+  }
 
-.players-tweets__title {
-  text-align: center;
-}
+  .reiss-text {
+    font-size: 10px;
+    margin-left: 95px;
+  }
 
-.players-tweets__saka {
-  margin-top: 15px;
-}
+  .players-tweets__arsenal {
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+  }
 
-.players-tweets__nketia {
-  margin-top: 15px;
-  width: 255px;
-  height: 185px;
-}
+  .players-tweets__title {
+    text-align: center;
+  }
 
-.players-tweets__jesus {
-  margin-top: 15px;
-  width: 255px;
-  height: 185px;
-}
+  .players-tweets__saka {
+    margin-top: 15px;
+  }
 
-.arsenal-features__staff {
-  text-shadow: 1px 1px 2px black, 0 0 1em red;
-}
+  .players-tweets__nketia {
+    margin-top: 15px;
+    width: 255px;
+    height: 185px;
+  }
 
-.arsenal-features__staff {
-  margin-top: 15px;
-}
+  .players-tweets__jesus {
+    margin-top: 15px;
+    width: 255px;
+    height: 185px;
+  }
 
-.advertisement {
-  margin-top: 125px;
-}
+  .arsenal-features__staff {
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+  }
 
-.players-cards {
-  width: 100%;
-}
+  .arsenal-features__staff {
+    margin-top: 15px;
+  }
 
-.jesus-gif {
-  margin-top: -85px;
-  width: 100%;
+  .advertisement {
+    margin-top: 125px;
+  }
+
+  .players-cards {
+    width: 100%;
+  }
+
+  .jesus-gif {
+    margin-top: -85px;
+    width: 100%;
+  }
 }
