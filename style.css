@@ -15,6 +15,13 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.header-content {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
 
 .navbar-collapse {
   justify-content: center !important;
@@ -40,6 +47,10 @@
 }
 
 /*main*/
+
+.first-section {
+  margin-top: 78px;
+}
 
 .card-frame {
   background: goldenrod;
