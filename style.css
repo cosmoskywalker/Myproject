@@ -39,16 +39,27 @@
   height: 62px;
 }
 
+/*main*/
+
 .card-frame {
-  margin-left: 20px;
   background: goldenrod;
+  width: 400px;
+}
+
+.general-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  margin-left: 25px;
+  margin-top: 25px;
 }
 
 .section-header__text {
   text-shadow: 1px 1px 2px black, 0 0 1em red;
   color: white;
   margin-top: 20px;
-  margin-left: 22px;
 }
 
 .card-conference {
@@ -66,16 +77,15 @@
 }
 
 .third-kit {
-  margin-left: 470px;
+  margin-right: 25px;
   width: 400px;
   height: 225px;
 }
 
 .collection {
-  margin-top: -60px;
-  margin-left: 25px;
-  width: 300px;
-  height: 225px;
+  margin-top: 25px;
+  width: 250px;
+  height: 200px;
 }
 
 .arsenal-items {
@@ -86,10 +96,6 @@
 .arsenal-text__shop {
   text-shadow: 1px 1px 2px black, 0 0 1em red;
   color: white;
-}
-
-.col-3 {
-  margin-right: 95px;
 }
 
 .arsenal-things__title {
@@ -119,23 +125,21 @@
 }
 
 .arsenal-highlights__video {
-  width: 800px;
+  width: 689px;
   height: 400px;
 }
 
 .arsenal-info {
-  margin-left: 192px;
+  margin-left: 15px;
 }
 
 .supporting {
   color: goldenrod;
-  margin-top: -390px;
 }
 
 .supporting-photo {
-  margin-top: -350px;
-  width: 700px;
-  height: 400px;
+  width: 690px;
+  height: 360px;
 }
 
 .card-academy {
@@ -149,6 +153,8 @@
 .academy-text:hover {
   color: crimson;
 }
+
+/*footer*/
 
 .footer {
   margin-top: 65px;

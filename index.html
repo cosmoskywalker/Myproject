@@ -17,6 +17,7 @@
     ></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
     <title>COYG</title>
   </head>
   <body class="background">
@@ -35,7 +36,7 @@
                 alt=""
               />
               <li class="nav-item">
-                <a class="nav-link" href="#">News</a>
+                <a class="nav-link" href="news.html">News</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Video</a>
@@ -66,7 +67,7 @@
                 <a class="nav-link" href="#">Stadium tours</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Fans</a>
+                <a class="nav-link active" aria-current="page" href="fans.html">Fans</a>
               </li>
             </ul>
           </div>
@@ -75,52 +76,55 @@
     </div>
     <main>
       <section>
-        <div class="section-header">
-          <h2
-            class="section-header__text"
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-          >
-            Latest News
-          </h2>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="card card-frame">
-              <div class="card-body">
-                <h5 class="card-title card-conference">Press conference</h5>
-                <p class="card-text">
-                  Every word from Mikel's press conference
-                </p>
-                <a href="#" class="btn btn-primary">Read more</a>
+        <div class="general-side">
+          <div class="left-side">
+            <div class="section-header">
+              <h2
+                class="section-header__text"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                Latest News
+              </h2>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="card card-frame">
+                <div class="card-body">
+                  <h5 class="card-title card-conference">Press conference</h5>
+                  <p class="card-text">
+                    Every word from Mikel's press conference
+                  </p>
+                  <a href="#" class="btn btn-primary">Read more</a>
+                </div>
               </div>
+              <img
+              class="collection"
+              data-aos="zoom-out-right"
+              data-aos-duration="1500"
+              
+              src="img/collection.jfif"
+              alt=""
+            />
             </div>
           </div>
-          <div
-            class="col-sm-4"
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
-            <img class="third-kit" src="img/third-kit-launch.png" alt="" />
+          <div class="right-side">
+             <div
+               class="col-sm-12 col-md-6"
+               data-aos="fade-down"
+               data-aos-easing="linear"
+               data-aos-duration="1500"
+             >
+               <img class="third-kit" src="img/third-kit-launch.png" alt="" />
+             </div>
           </div>
-        </div>
-        <div class="row">
-          <img
-            class="collection"
-            data-aos="zoom-out-right"
-            data-aos-duration="1500"
-            src="img/collection.jfif"
-            alt=""
-          />
         </div>
       </section>
       <section class="arsenal-items">
         <div class="container">
           <div class="row">
             <h2 class="arsenal-text__shop">Shop</h2>
-            <div class="col-3">
+            <div class="col-sm-12 col-md-4">
               <div class="card" style="width: 18rem">
                 <img
                   src="img/arsenal-things.jfif"
@@ -140,7 +144,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-4">
               <div class="card" style="width: 18rem">
                 <img
                   src="img/arsenal-things2.jfif"
@@ -160,7 +164,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-4">
               <div class="card" style="width: 18rem">
                 <img
                   src="img/arsenal-things3.jfif"
@@ -191,14 +195,19 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-6">
-              <iframe
+            <div class="col-8">
+              <div class="arsenal-highlights-wrapper">
+                <iframe
                 class="arsenal-highlights__video"
                 src="img/arsenal-video.mp4"
                 frameborder="1"
               ></iframe>
+              <h3 class="supporting">Arsenal supporting supporters</h3>
+              <img class="supporting-photo" data-aos="fade-up"
+              data-aos-duration="3000" src="img/supporting.jpg" alt="">
+              </div>
             </div>
-            <div class="col-6">
+            <div class="col-4">
               <div class="card arsenal-info" style="width: 18rem">
                 <img src="img/nelson.jfif" class="card-img-top" data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
@@ -228,13 +237,7 @@
                   </li>
               </div>
             </div>
-          <div class="row">
-            <h3 class="supporting">Arsenal supporting supporters</h3>
-            <div class="col">
-              <img class="supporting-photo" data-aos="fade-up"
-              data-aos-duration="3000" src="img/supporting.jpg" alt="">
-            </div>
-          </div>
+      
         </div>
       </section>
       <section class="arsenal-academy">
@@ -245,7 +248,7 @@
         </div>
         <div class="container">
           <div class="row">
-              <div class="col-3">
+              <div class="col-4">
                 <div class="card" style="width: 18rem">
                   <img
                     src="img/academy1.png"
@@ -263,7 +266,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-4">
                 <div class="card" style="width: 18rem">
                   <img
                     src="img/academy2.png"
@@ -282,7 +285,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-4">
                 <div class="card" style="width: 18rem">
                   <img
                     src="img/academy3.png"

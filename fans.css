@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  text-transform: uppercase;
+}
+
+/*navbar*/
+
+.header-content {
+  background: url("img/arsenal-crew.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-link {
+  color: white !important;
+  transition: background-color 0.5 ease;
+  margin-top: -15px;
+}
+
+.nav-link:hover {
+  background-color: crimson;
+}
+
+.arsenal-logo {
+  margin-left: 15px;
+  width: 65px;
+  height: 62px;
+}
+
+.nav-item {
+  margin-top: 15px;
+  margin-left: 23px;
+}
+
+.fans-information {
+  margin-top: 25px;
+}
+
+.fans-information__image {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: crimson;
+  transition: background-color 0.5s ease;
+}
+
+.fans-information__gif {
+  margin-top: 15px;
+}

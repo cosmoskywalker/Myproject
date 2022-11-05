@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  text-transform: uppercase;
+}
+
+/*navbar*/
+
+.header-content {
+  background: url("img/arsenal-crew.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-link {
+  color: white !important;
+  transition: background-color 0.5 ease;
+  margin-top: -15px;
+}
+
+.nav-link:hover {
+  background-color: crimson;
+}
+
+.arsenal-logo {
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 65px;
+  height: 62px;
+}
+
+.nav-item {
+  margin-top: 15px;
+  margin-left: 23px;
+}
+
+.header-photos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-photo__left {
+  margin-top: 25px;
+  margin-left: 22px;
+}
+
+.holiday {
+  margin-top: 5px;
+  width: 600px;
+  height: 300px;
+}
+
+.header-photo__right {
+  margin-right: 25px;
+}
+
+.arsenal-description {
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background-color: crimson;
+  transition: background-color 0.5s ease;
+  width: 100%;
+}
+
+.nelson-goal {
+  margin-left: -12px;
+  width: 250px;
+  height: 212px;
+}
+
+.reiss-card {
+  font-size: 16px;
+  margin-left: 125px;
+}
+
+.reiss-text {
+  font-size: 10px;
+  margin-left: 95px;
+}
+
+.players-tweets__arsenal {
+  text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+.players-tweets__title {
+  text-align: center;
+}
+
+.players-tweets__saka {
+  margin-top: 15px;
+}
+
+.players-tweets__nketia {
+  margin-top: 15px;
+  width: 255px;
+  height: 185px;
+}
+
+.players-tweets__jesus {
+  margin-top: 15px;
+  width: 255px;
+  height: 185px;
+}
+
+.arsenal-features__staff {
+  text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+.arsenal-features__staff {
+  margin-top: 15px;
+}
+
+.advertisement {
+  margin-top: 125px;
+}
+
+.players-cards {
+  width: 100%;
+}
+
+.jesus-gif {
+  margin-top: -85px;
+  width: 100%;
+}
