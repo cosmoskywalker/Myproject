@@ -6,12 +6,14 @@
 * {
   text-transform: uppercase;
 }
+
 @media (min-width: 320px) {
+  .arsenal-logo {
+    margin-left: -125px;
+  }
 }
 
 @media (min-width: 1200px) {
-  /*navbar*/
-
   .background {
     background: url("img/wallpaperflare.com_wallpaper.jpg");
     height: 100vh;

@@ -18,7 +18,6 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-
   ul {
     list-style: none;
   }
@@ -26,7 +25,8 @@
   .nav-link {
     color: white !important;
     transition: background-color 0.5 ease;
-    margin-top: -15px;
+    margin-top: -55px;
+    margin-left: 45px;
   }
 
   .nav-link:hover {
@@ -34,7 +34,8 @@
   }
 
   .arsenal-logo {
-    margin-left: 15px;
+    margin-top: -15px;
+    margin-left: -25px;
     width: 65px;
     height: 62px;
   }
@@ -43,7 +44,6 @@
     margin-top: 15px;
     margin-left: 23px;
   }
-
   .fans-information {
     margin-top: 25px;
   }

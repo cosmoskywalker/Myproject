@@ -6,7 +6,79 @@
 * {
   text-transform: uppercase;
 }
-@media (min-width: 320px) {
+@media (min-width: 320px) /*navbar*/ {
+  .arsenal-logo {
+    margin-top: 15px;
+    margin-left: -5px;
+    width: 65px;
+    height: 62px;
+  }
+
+  .nav-link {
+    margin-left: 5px;
+  }
+
+  .news {
+    width: 100%;
+  }
+
+  .holiday {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .rwandaa {
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .arsenal-description__card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /*main*/
+  .nelson-goal {
+    width: 100%;
+  }
+
+  .player-tweets__cards {
+    margin-bottom: 15px;
+  }
+
+  .players-tweets__saka {
+    margin-top: 15px;
+  }
+
+  .players-tweets__nketia {
+    margin-top: 15px;
+  }
+
+  .players-tweets__jesus {
+    margin-top: 15px;
+  }
+
+  .arsenal-description__nelson {
+    margin-left: 1px;
+  }
+
+  .players-tweets__arsenal {
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+  }
+
+  .arsenal-features__staff {
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+  }
+
+  .players-cards {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .jesus-gif {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -26,7 +98,8 @@
   .nav-link {
     color: white !important;
     transition: background-color 0.5 ease;
-    margin-top: -15px;
+    margin-top: -55px;
+    margin-left: 45px;
   }
 
   .nav-link:hover {
@@ -34,8 +107,8 @@
   }
 
   .arsenal-logo {
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-top: -15px;
+    margin-left: -25px;
     width: 65px;
     height: 62px;
   }
@@ -61,6 +134,18 @@
     height: 300px;
   }
 
+  .news {
+    width: 900px;
+    height: 150px;
+  }
+
+  .rwandaa {
+    width: 300px;
+    height: 225px;
+    margin-top: 27px;
+    margin-left: -15px;
+  }
+
   .header-photo__right {
     margin-right: 25px;
   }
@@ -69,6 +154,13 @@
     margin-top: 30px;
   }
 
+  .arsenal-description__card {
+    margin-top: auto;
+  }
+
+  .arsenal-description__nelson {
+    margin-left: auto;
+  }
   .btn-primary {
     background-color: crimson;
     transition: background-color 0.5s ease;
@@ -93,6 +185,10 @@
 
   .players-tweets__arsenal {
     text-shadow: 1px 1px 2px black, 0 0 1em red;
+  }
+
+  .player-tweets__cards {
+    margin-bottom: 5px;
   }
 
   .players-tweets__title {

@@ -7,209 +7,214 @@
   text-transform: uppercase;
 }
 
-/*navbar*/
-
-.background {
-  background: url("img/wallpaperflare.com_wallpaper.jpg");
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.header-content {
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-  top: 0;
-  left: 0;
+@media (min-width: 320px) {
 }
 
-.navbar-collapse {
-  justify-content: center !important;
-}
+@media (min-width: 1200px) {
+  /*navbar*/
 
-.navbar-nav {
-  align-items: center;
-}
+  .background {
+    background: url("img/wallpaperflare.com_wallpaper.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-content {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+  }
 
-.nav-link {
-  color: white !important;
-  transition: background-color 0.5 ease;
-  margin-top: -15px;
-}
+  .navbar-collapse {
+    justify-content: center !important;
+  }
 
-.nav-link:hover {
-  background-color: crimson;
-}
+  .navbar-nav {
+    align-items: center;
+  }
 
-.arsenal-logo {
-  width: 65px;
-  height: 62px;
-}
+  .nav-link {
+    color: white !important;
+    transition: background-color 0.5 ease;
+    margin-top: -15px;
+  }
 
-/*main*/
+  .nav-link:hover {
+    background-color: crimson;
+  }
 
-.first-section {
-  margin-top: 78px;
-}
+  .arsenal-logo {
+    width: 65px;
+    height: 62px;
+  }
 
-.card-frame {
-  background: goldenrod;
-  width: 400px;
-}
+  /*main*/
 
-.general-side {
-  display: flex;
-  justify-content: space-between;
-}
+  .first-section {
+    margin-top: 78px;
+  }
 
-.left-side {
-  margin-left: 25px;
-  margin-top: 25px;
-}
+  .card-frame {
+    background: goldenrod;
+    width: 400px;
+  }
 
-.section-header__text {
-  text-shadow: 1px 1px 2px black, 0 0 1em red;
-  color: white;
-  margin-top: 20px;
-}
+  .general-side {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.card-conference {
-  color: rebeccapurple;
-}
+  .left-side {
+    margin-left: 25px;
+    margin-top: 25px;
+  }
 
-.btn-primary {
-  background-color: crimson;
-  transition: background-color 0.5s ease;
-  width: 100%;
-}
+  .section-header__text {
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+    color: white;
+    margin-top: 20px;
+  }
 
-.btn-primary:hover {
-  background-color: transparent;
-}
+  .card-conference {
+    color: rebeccapurple;
+  }
 
-.third-kit {
-  margin-right: 25px;
-  width: 400px;
-  height: 225px;
-}
+  .btn-primary {
+    background-color: crimson;
+    transition: background-color 0.5s ease;
+    width: 100%;
+  }
 
-.collection {
-  margin-top: 25px;
-  width: 250px;
-  height: 200px;
-}
+  .btn-primary:hover {
+    background-color: transparent;
+  }
 
-.arsenal-items {
-  margin-top: 85px;
-  margin-right: -25px;
-}
+  .third-kit {
+    margin-right: 25px;
+    width: 400px;
+    height: 225px;
+  }
 
-.arsenal-text__shop {
-  text-shadow: 1px 1px 2px black, 0 0 1em red;
-  color: white;
-}
+  .collection {
+    margin-top: 25px;
+    width: 250px;
+    height: 200px;
+  }
 
-.arsenal-things__title {
-  color: crimson;
-  font-size: 16px;
-  text-align: center;
-}
+  .arsenal-items {
+    margin-top: 85px;
+    margin-right: -25px;
+  }
 
-.arsenal-things__text {
-  color: black;
-  text-align: center;
-}
+  .arsenal-text__shop {
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+    color: white;
+  }
 
-.arsenal-highlights {
-  margin-top: 25px;
-}
+  .arsenal-things__title {
+    color: crimson;
+    font-size: 16px;
+    text-align: center;
+  }
 
-.arsenal-highlights__header {
-  margin-top: 25px;
-  background: crimson;
-}
+  .arsenal-things__text {
+    color: black;
+    text-align: center;
+  }
 
-.arsenal-highlights__text {
-  color: white;
-  text-align: center;
-  font-size: 28px;
-}
+  .arsenal-highlights {
+    margin-top: 25px;
+  }
 
-.arsenal-highlights__video {
-  width: 689px;
-  height: 400px;
-}
+  .arsenal-highlights__header {
+    margin-top: 25px;
+    background: crimson;
+  }
 
-.arsenal-info {
-  margin-left: 15px;
-}
+  .arsenal-highlights__text {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+  }
 
-.supporting {
-  color: goldenrod;
-}
+  .arsenal-highlights__video {
+    width: 689px;
+    height: 400px;
+  }
 
-.supporting-photo {
-  width: 690px;
-  height: 360px;
-}
+  .arsenal-info {
+    margin-left: 15px;
+  }
 
-.card-academy {
-  font-size: 12px;
-}
+  .supporting {
+    color: goldenrod;
+  }
 
-.academy-text {
-  color: black;
-}
+  .supporting-photo {
+    width: 690px;
+    height: 360px;
+  }
 
-.academy-text:hover {
-  color: crimson;
-}
+  .card-academy {
+    font-size: 12px;
+  }
 
-/*footer*/
+  .academy-text {
+    color: black;
+  }
 
-.footer {
-  margin-top: 65px;
-  background-color: rgb(88, 88, 88);
-}
+  .academy-text:hover {
+    color: crimson;
+  }
 
-.logo-arsenal {
-  margin-top: 45px;
-  margin-left: 550px;
-  width: 65px;
-  height: 62px;
-}
+  /*footer*/
 
-.premier-league {
-  width: 300px;
-  height: 225px;
-}
+  .footer {
+    margin-top: 65px;
+    background-color: rgb(88, 88, 88);
+  }
 
-.premier-league:hover {
-  -webkit-filter: grayscale(100) brightness(200);
-  filter: grayscale(100) brightness(200);
-}
+  .logo-arsenal {
+    margin-top: 45px;
+    margin-left: 550px;
+    width: 65px;
+    height: 62px;
+  }
 
-.adidas {
-  width: 125px;
-  height: 100px;
-}
+  .premier-league {
+    width: 300px;
+    height: 225px;
+  }
 
-.emirates {
-  width: 125px;
-  height: 100px;
-}
+  .premier-league:hover {
+    -webkit-filter: grayscale(100) brightness(200);
+    filter: grayscale(100) brightness(200);
+  }
 
-.pes {
-  width: 200px;
-  height: 150px;
-}
+  .adidas {
+    width: 125px;
+    height: 100px;
+  }
 
-.rwanda {
-  width: 125px;
-  height: 100px;
-}
+  .emirates {
+    width: 125px;
+    height: 100px;
+  }
 
-.therabody {
-  width: 125px;
-  height: 100px;
+  .pes {
+    width: 200px;
+    height: 150px;
+  }
+
+  .rwanda {
+    width: 125px;
+    height: 100px;
+  }
+
+  .therabody {
+    width: 125px;
+    height: 100px;
+  }
 }
