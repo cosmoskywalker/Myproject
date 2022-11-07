@@ -8,6 +8,150 @@
 }
 
 @media (min-width: 320px) {
+  .arsenal-logo {
+    margin-top: 15px;
+    margin-left: -5px;
+    width: 65px;
+    height: 62px;
+  }
+
+  .nav-link {
+    margin-left: 8px;
+  }
+
+  .section-header__text {
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .card-conference {
+    color: rebeccapurple;
+  }
+
+  .btn-primary {
+    transition: background-color 0.5s ease;
+    width: 100%;
+  }
+
+  .card-frame {
+    background: goldenrod;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: auto;
+  }
+
+  .collection {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    margin-left: 33px;
+  }
+
+  .third-kit {
+    margin-left: 10px;
+    width: 300px;
+    height: 225px;
+  }
+
+  .arsenal-text__shop {
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .arsenal-items__card {
+    margin-bottom: 15px;
+  }
+
+  .arsenal-highlights__header {
+    margin-top: 5px;
+    background: crimson;
+  }
+
+  .arsenal-highlights__text {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .arsenal-highlights__video {
+    margin-left: -3px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .supporting {
+    color: goldenrod;
+  }
+
+  .supporting-photo {
+    width: 295px;
+    height: 180px;
+    margin-bottom: 15px;
+  }
+
+  .arsenal-info {
+    margin-left: 3px;
+  }
+
+  .card-players {
+    margin-bottom: 10px;
+    margin-left: 3px;
+  }
+
+  /*footer*/
+
+  .footer {
+    margin-top: 25px;
+    background-color: rgb(88, 88, 88);
+  }
+
+  .logo-arsenal {
+    margin-top: 45px;
+    margin-left: 120px;
+    width: 65px;
+    height: 62px;
+  }
+
+  .premier-league {
+    width: 175px;
+    height: 150px;
+  }
+
+  .premier-league:hover {
+    -webkit-filter: grayscale(100) brightness(200);
+    filter: grayscale(100) brightness(200);
+  }
+
+  .adidas {
+    width: 115px;
+    height: 100px;
+  }
+
+  .emirates {
+    width: 150px;
+    height: 125px;
+  }
+
+  .pes {
+    width: 140px;
+    height: 125px;
+  }
+
+  .rwanda {
+    width: 140px;
+    height: 125px;
+  }
+
+  .therabody {
+    width: 135px;
+    height: 115px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -46,6 +190,8 @@
   }
 
   .arsenal-logo {
+    margin-top: auto;
+    margin-left: auto;
     width: 65px;
     height: 62px;
   }
@@ -59,6 +205,8 @@
   .card-frame {
     background: goldenrod;
     width: 400px;
+    margin-left: auto;
+    margin-top: 15px;
   }
 
   .general-side {
@@ -74,7 +222,9 @@
   .section-header__text {
     text-shadow: 1px 1px 2px black, 0 0 1em red;
     color: white;
-    margin-top: 20px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
   }
 
   .card-conference {
@@ -92,13 +242,16 @@
   }
 
   .third-kit {
+    margin-left: auto;
     margin-right: 25px;
     width: 400px;
     height: 225px;
   }
 
   .collection {
-    margin-top: 25px;
+    margin-top: 15px;
+    margin-bottom: auto;
+    margin-left: auto;
     width: 250px;
     height: 200px;
   }
@@ -108,9 +261,15 @@
     margin-right: -25px;
   }
 
+  .arsenal-items__card {
+    margin-bottom: auto;
+  }
+
   .arsenal-text__shop {
     text-shadow: 1px 1px 2px black, 0 0 1em red;
     color: white;
+    margin-top: auto;
+    margin-bottom: 15px;
   }
 
   .arsenal-things__title {
@@ -140,6 +299,7 @@
   }
 
   .arsenal-highlights__video {
+    margin-left: auto;
     width: 689px;
     height: 400px;
   }
@@ -155,6 +315,12 @@
   .supporting-photo {
     width: 690px;
     height: 360px;
+    margin-bottom: auto;
+  }
+
+  .card-players {
+    margin-bottom: auto;
+    margin-left: -2px;
   }
 
   .card-academy {
