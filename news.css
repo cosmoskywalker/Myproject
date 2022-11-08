@@ -37,6 +37,13 @@
     margin-bottom: 10px;
   }
   /*main*/
+
+  .btn-primary {
+    background-color: crimson;
+    transition: background-color 0.5s ease;
+    width: 100%;
+  }
+
   .nelson-goal {
     width: 100%;
   }

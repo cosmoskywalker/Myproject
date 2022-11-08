@@ -7,6 +7,39 @@
   text-transform: uppercase;
 }
 @media (min-width: 320px) {
+  .arsenal-logo {
+    margin-top: 15px;
+    margin-left: -5px;
+    width: 65px;
+    height: 62px;
+  }
+
+  .nav-link {
+    margin-left: 8px;
+  }
+
+  .card-title {
+    text-align: center;
+  }
+
+  .card-text {
+    text-align: center;
+  }
+
+  .btn-primary {
+    background-color: crimson;
+    transition: background-color 0.5s ease;
+    width: 100%;
+  }
+
+  .arsenal-card {
+    margin-bottom: 10px;
+  }
+
+  .fans-information__gif {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -44,6 +77,15 @@
     margin-top: 15px;
     margin-left: 23px;
   }
+
+  .card-title {
+    text-align: center;
+  }
+
+  .card-text {
+    text-align: center;
+  }
+
   .fans-information {
     margin-top: 25px;
   }
@@ -55,9 +97,15 @@
   .btn-primary {
     background-color: crimson;
     transition: background-color 0.5s ease;
+    width: 100%;
+  }
+
+  .arsenal-card {
+    margin-bottom: auto;
   }
 
   .fans-information__gif {
     margin-top: 15px;
+    margin-bottom: auto;
   }
 }
